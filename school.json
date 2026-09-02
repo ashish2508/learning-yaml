@@ -1,0 +1,15 @@
+{
+  "School":{
+  [
+    "name":"DPS",
+    "principal":"Pratap Lode",
+    "students":[
+      {
+        "rno":12,
+        "name":"Aj",
+        "marks": 67
+      }
+    ]
+  ]
+  }
+}
