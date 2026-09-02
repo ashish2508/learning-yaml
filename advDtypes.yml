@@ -1,0 +1,39 @@
+# lists
+student: !!seq
+  - marks
+  - name
+  - roll_no
+
+sparse seq:
+  - hey
+  - how
+  -
+  - "?"
+
+name: ashish jha
+role: { age: 78, job: unemployed }
+
+# pairs: keys may have duplicate values
+pair examples: !!pairs
+  - job: student
+  - job: teacher
+
+# omap == ordered mapping
+people: !!omap
+  - Ashish:
+      name: Ashish
+      age: 22
+      height: 200
+  - Rahul:
+      name: Rahul Singh
+      age: 34
+      height: 400
+
+# reusing some properties using anchors
+likings: &likes
+  fav: mango
+  dislike: grapes
+
+person:
+  name: Ashish Jha
+  <<: *likes

@@ -1,0 +1,23 @@
+#variable
+myself: Ashish Jha
+fruit: "apple"
+job: "jobless"
+
+bio: |
+  hey my name is ashish jha
+  i am not a amb dude
+
+message: >
+  this will
+  be a 
+  single line
+number: 17
+marks: 98.87
+booleanValue: No
+
+#specify the type
+zero: !!int 0
+p: !!int 45
+binaryNum: !!int 0b11011
+
+ sur: !!null Null

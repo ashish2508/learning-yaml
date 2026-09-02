@@ -1,0 +1,15 @@
+"apple":"I am a red fruit"
+1:"this is my roll number"
+---
+#lists
+- apple
+- mango
+- Apple
+---
+#blocks
+ 
+cities:
+  - New York
+  - Los Angeles
+  - Chicago
+---

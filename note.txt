@@ -1,4 +1,5 @@
 yaml is a data serialization language, example: yaml,json,xml
+uses key value pairs as well
 BENEFITS:
   :simple and easy to read
   :supports complex data structures
@@ -7,4 +8,4 @@ BENEFITS:
   :most lang use yaml
   :more powerfurl when representing complex data
   :parsers and other tools available eg, K8 lensId
-
+yaml doesn't support multi line comments
